@@ -6,7 +6,7 @@ browse the web using js
 
 ## example usage
 ```js
-const jsbrowse = require("./index");
+const jsbrowse = require("jsbrowse");
 const browser = new jsbrowse.browse("http://justgone.uk/onebot/api");
 
 browser.browse("index.html");
