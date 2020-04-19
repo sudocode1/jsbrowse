@@ -16,6 +16,13 @@ class browse {
             });
         });
     }
+
+    status() {
+        request(this.site, function(error, response, body) {
+            console.error('error:', error);
+            console.log("statusCode:", response && response.statusCode);
+        });
+    }
 }
 
 module.exports = { browse };

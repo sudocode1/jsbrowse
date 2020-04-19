@@ -1,6 +1,6 @@
 {
   "name": "jsbrowse",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "browser for js",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,22 @@
   "license": "MIT",
   "dependencies": {
     "fs": "0.0.1-security",
+    "open": "^7.0.3",
     "request": "^2.88.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudocode1/jsbrowse.git"
+  },
+  "keywords": [
+    "jsbrowse",
+    "browse",
+    "internet",
+    "browser"
+  ],
+  "bugs": {
+    "url": "https://github.com/sudocode1/jsbrowse/issues"
+  },
+  "homepage": "https://github.com/sudocode1/jsbrowse#readme"
 }
